@@ -10,5 +10,5 @@ else:
         if result == dec: #생성자 찾으면 출력하고 break (가장 작은 생성자만 찾으면 되므로)
             print(gen)
             break
-    if gen == (dec-1): #생성자가 없으면 0출력
+    if gen == (dec-1): #생성자가 없으면 0출력 (반복문이 끝까지 돌아간 경우)
         print(0)  
